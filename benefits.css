@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  line-height: 1.6;
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+}
+
+h1, h3{
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/* Navigation bar */
+.nav-bar{
+  background-color: #4c7397;
+  position: sticky;
+  top: 0;
+}
+
+.nav-bar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.nav-bar li{
+  display: inline-block;
+}
+
+.active a{
+  opacity: 0.7;
+  color: #db545a;
+}
+
+.nav-bar li a {
+  display: block;
+  text-align: center;
+  padding: 14px 80px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+}
+
+.nav-bar li a:hover{
+  color: #db545a;
+  transition: 0.5s;
+}
+
+/* First Page */
+.first-page{
+  background-color: rgba(186, 186, 186, 0.47);
+  padding: 10em 5rem 5em 12rem;
+}
+
+.container{
+  position: relative;
+}
+
+.heading{
+  position: relative;
+  font-size: 1.5em;
+  background-color: rgba(87, 128, 210, 0.808);
+  text-align: center;
+  padding: 1.8rem 3rem 1.8rem 0rem;
+  width: 55%;
+  letter-spacing: 0.6rem;
+}
+
+.number{
+  font-size: 15em;
+  color: rgba(87, 128, 210, 0.808);
+  -webkit-text-stroke: 5px white;
+  position: absolute;
+  font-weight: 900;
+  top: 0;
+  right: 0;
+  margin: 0 14% 0 0; 
+  font-family: 'Lilita One', sans-serif;
+  transform: translateY(-0.50em);
+}
+
+.main-text{
+  display: flex;
+}
+
+.main-text p{
+  max-width: 60%;
+  padding: 1rem 3rem 1rem 9rem;
+  margin-left: -6.7rem;
+  background-color: white;
+}
+
+.blue-decor{
+  height: auto;
+  width: 2rem;
+  background-color: rgba(87, 128, 210, 0.808);
+}
+
+.image-box{
+  position: relative;
+  width: 20%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 1;
+}
+
+.image-box img{
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid rgba(87, 128, 210, 0.808);
+}
+
+/* Second Page */
+.second-page{
+  background-color: rgba(186, 186, 186, 0.47);
+  padding: 10em 5rem 5em 12rem;
+}
+
+.container-1{
+  position: relative;
+}
+
+.heading{
+  position: relative;
+  font-size: 1.5em;
+  background-color: rgba(87, 128, 210, 0.808);
+  text-align: center;
+  padding: 1.8rem 3rem 1.8rem 0rem;
+  width: 55%;
+  letter-spacing: 0.6rem;
+}
+
+.container-1 .number{
+  font-size: 15em;
+  color: rgba(87, 128, 210, 0.808);
+  -webkit-text-stroke: 5px white;
+  position: absolute;
+  font-weight: 900;
+  top: 0;
+  right: 0;
+  margin: 0 14% 0 0; 
+  font-family: 'Lilita One', sans-serif;
+  transform: translateY(-0.50em);
+}
+
+.main-text{
+  display: flex;
+}
+
+.second-page .container-1 .main-text p{
+  max-width: 60%;
+  padding: 1rem 3rem 1rem 9rem;
+  margin-left: -6.7rem;
+  background-color: white;
+}
+
+.blue-decor{
+  height: auto;
+  width: 2rem;
+  background-color: rgba(87, 128, 210, 0.808);
+}
+
+.image-box{
+  position: relative;
+  width: 20%;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  z-index: 1;
+}
+
+.image-box img{
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid rgba(87, 128, 210, 0.808);
+}
