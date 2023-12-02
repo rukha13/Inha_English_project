@@ -14,10 +14,20 @@ h1, h3{
 }
 
 /* Navigation bar */
-.nav-bar{
-  background-color: #4c7397;
+header{
   position: sticky;
   top: 0;
+  z-index: 10;
+}
+
+.nav-bar{
+  background-color: #4c7397;
+}
+
+.logo{
+  position: absolute;
+  top: 4px;
+  left: 1rem;
 }
 
 .nav-bar ul{
@@ -53,7 +63,6 @@ h1, h3{
 
 .icon{
   color: aquamarine;
-  /* text-align: center; */
   margin-right: 10px;
 }
 
@@ -262,6 +271,11 @@ h1, h3{
 
 .inha-emblem{
   position: relative;
+}
+
+.footer-text{
+  text-align: center;
+  margin-left: 5rem;
 }
 
 .inha-link{
