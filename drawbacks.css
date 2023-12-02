@@ -1,3 +1,8 @@
+:root{
+  --back-color: #3cb371;
+  --front-color: #333431;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -88,7 +93,7 @@ header{
 
 .line1{
 font-size: 24rem; 
-color: rgb(106, 202, 211);
+color: rgb(108, 211, 106);
 margin: -3.5rem;
 }
 
@@ -99,7 +104,7 @@ margin: -3.5rem;
 .line3-container{
   width: 32.5rem;
   height: auto;
-  background-color: rgb(106, 202, 211);
+  background-color: rgb(108, 211, 106);
   padding: 2rem 0 2rem 0;
   color: #333431;
 }
@@ -130,7 +135,7 @@ margin: -3.5rem;
 
 .heading{
   font-size: 1.5em;
-  background-color: rgba(87, 128, 210, 0.808);
+  background-color: var(--back-color);
   text-align: center;
   padding: 1.8rem 3rem 1.8rem 0rem;
   width: 55%;
@@ -139,7 +144,7 @@ margin: -3.5rem;
 
 .number{
   font-size: 15em;
-  color: rgba(87, 128, 210, 0.808);
+  color: var(--back-color);
   -webkit-text-stroke: 5px white;
   position: absolute;
   font-weight: 900;
@@ -158,8 +163,8 @@ margin: -3.5rem;
   max-width: 60%;
   padding: 1rem 3rem 1rem 9rem;
   margin-left: -6.7rem;
-  background-color: white;
-  border-right: 2rem solid rgba(87, 128, 210, 0.808);
+  background-color: #ffffff;
+  border-right: 2rem solid var(--back-color);
 }
 
 .image-box{
@@ -174,13 +179,13 @@ margin: -3.5rem;
 .image-box img{
   width: 100%;
   border-radius: 50%;
-  border: 10px solid rgba(87, 128, 210, 0.808);
-  box-shadow: 0 0 0 10px #fff;
+  border: 10px solid var(--back-color);
+  box-shadow: 0 0 0 10px #ffffff;
 }
 
 /* Second Page */
 .second-page{
-  background-color: rgba(87, 128, 210, 0.808);
+  background-color: var(--back-color);
   padding: 10em 5rem 5em 12rem;
 }
 
@@ -191,7 +196,7 @@ margin: -3.5rem;
 .second-page .heading{
   position: relative;
   font-size: 1.5em;
-  background-color: #333431;
+  background-color: var(--front-color);
   text-align: center;
   padding: 1.8rem 3rem 1.8rem 0rem;
   width: 55%;
@@ -201,7 +206,7 @@ margin: -3.5rem;
 
 .container-1 .number{
   font-size: 15em;
-  color: #333431;
+  color: var(--front-color);
   -webkit-text-stroke: 5px white;
   position: absolute;
   font-weight: 900;
@@ -217,7 +222,7 @@ margin: -3.5rem;
   padding: 1rem 3rem 1rem 9rem;
   margin-left: -6.7rem;
   background-color: white;
-  border-right: 2rem solid #333431;
+  border-right: 2rem solid var(--front-color);
 }
 
 /* Third page */
@@ -235,7 +240,7 @@ margin: -3.5rem;
 .third-page .heading{
   position: relative;
   font-size: 1.5em;
-  background-color: rgba(87, 128, 210, 0.808);
+  background-color: var(--back-color);
   text-align: center;
   padding: 1.8rem 0rem 1.8rem 3rem;
   width: 55%;
@@ -246,7 +251,7 @@ margin: -3.5rem;
 
 .container-2 .number{
   font-size: 15em;
-  color: rgba(87, 128, 210, 0.808);
+  color: var(--back-color);
   -webkit-text-stroke: 5px white;
   position: absolute;
   font-weight: 900;
@@ -261,13 +266,13 @@ margin: -3.5rem;
   padding: 1rem 10rem 1rem 3rem;
   margin-right: -9rem;
   background-color: white;
-  border-left: 2rem solid rgba(87, 128, 210, 0.808);
+  border-left: 2rem solid var(--back-color);
   border-right: none;
 }
 
 /* Fourth page */
 .fourth-page{
-  background-color: rgba(87, 128, 210, 0.808);
+  background-color: var(--back-color);
   padding: 10em 7rem 5em 10.5rem;
   overflow: hidden;
 }
@@ -280,7 +285,7 @@ margin: -3.5rem;
 .fourth-page .heading{
   position: relative;
   font-size: 1.5em;
-  background-color: #333431;
+  background-color: var(--front-color);
   text-align: center;
   padding: 1.8rem 0rem 1.8rem 3rem;
   width: 55%;
@@ -291,7 +296,7 @@ margin: -3.5rem;
 
 .container-3 .number{
   font-size: 15em;
-  color: #333431;
+  color: var(--front-color);
   -webkit-text-stroke: 5px white;
   position: absolute;
   font-weight: 900;
@@ -306,7 +311,7 @@ margin: -3.5rem;
   padding: 1rem 10rem 1rem 3rem;
   margin-right: -9rem;
   background-color: white;
-  border-left: 2rem solid #333431;
+  border-left: 2rem solid var(--front-color);
   border-right: none;
 }
 
