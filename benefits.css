@@ -66,6 +66,58 @@ header{
   margin-right: 10px;
 }
 
+/* Intro Page */
+.intro{
+  background-color: #333431;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  justify-content: center;
+  padding: 5rem 0 5rem 0;
+}
+
+.intro-text{
+  width: auto;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line1{
+font-size: 24rem; 
+color: rgb(106, 202, 211);
+margin: -3.5rem;
+}
+
+.line2{
+  font-size: 6rem;
+}
+
+.line3-container{
+  width: 32.5rem;
+  height: auto;
+  background-color: rgb(106, 202, 211);
+  padding: 2rem 0 2rem 0;
+  color: #333431;
+}
+
+.line3{
+  font-size: 5rem;
+}
+
+.intro-img{
+  width: 40%;
+  height: auto;
+}
+
+.intro-img img{
+  object-fit: cover;
+  width: 100%;
+}
+
 /* First Page */
 .first-page{
   background-color: rgba(186, 186, 186, 0.47);
