@@ -35,9 +35,9 @@ header{
   display: inline-block;
 }
 
-.active1 a{
-  background-color: #2c405287;
-}
+/* .active1 a{
+  background-color: #fff !important;
+} */
 
 .nav-bar li a {
   display: block;

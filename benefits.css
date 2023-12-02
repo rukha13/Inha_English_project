@@ -51,6 +51,12 @@ h1, h3{
   background-color: #2c405287;
 }
 
+.icon{
+  color: aquamarine;
+  /* text-align: center; */
+  margin-right: 10px;
+}
+
 /* First Page */
 .first-page{
   background-color: rgba(186, 186, 186, 0.47);
