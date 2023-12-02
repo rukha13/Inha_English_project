@@ -33,8 +33,7 @@ h1, h3{
 }
 
 .active a{
-  opacity: 0.7;
-  color: #db545a;
+  background-color: #2c405287 !important;
 }
 
 .nav-bar li a {
@@ -45,11 +44,11 @@ h1, h3{
   color: white;
   font-family: 'Fjalla One', sans-serif;
   font-size: 18px;
+  transition: background-color 1s ;
 }
 
 .nav-bar li a:hover{
-  color: #db545a;
-  transition: 0.5s;
+  background-color: #2c405287;
 }
 
 /* First Page */
@@ -63,7 +62,6 @@ h1, h3{
 }
 
 .heading{
-  position: relative;
   font-size: 1.5em;
   background-color: rgba(87, 128, 210, 0.808);
   text-align: center;
@@ -94,12 +92,7 @@ h1, h3{
   padding: 1rem 3rem 1rem 9rem;
   margin-left: -6.7rem;
   background-color: white;
-}
-
-.blue-decor{
-  height: auto;
-  width: 2rem;
-  background-color: rgba(87, 128, 210, 0.808);
+  border-right: 2rem solid rgba(87, 128, 210, 0.808);
 }
 
 .image-box{
@@ -115,11 +108,12 @@ h1, h3{
   width: 100%;
   border-radius: 50%;
   border: 10px solid rgba(87, 128, 210, 0.808);
+  box-shadow: 0 0 0 10px #fff;
 }
 
 /* Second Page */
 .second-page{
-  background-color: rgba(186, 186, 186, 0.47);
+  background-color: rgba(87, 128, 210, 0.808);
   padding: 10em 5rem 5em 12rem;
 }
 
@@ -127,19 +121,20 @@ h1, h3{
   position: relative;
 }
 
-.heading{
+.second-page .heading{
   position: relative;
   font-size: 1.5em;
-  background-color: rgba(87, 128, 210, 0.808);
+  background-color: #333431;
   text-align: center;
   padding: 1.8rem 3rem 1.8rem 0rem;
   width: 55%;
   letter-spacing: 0.6rem;
+  color: #fff;
 }
 
 .container-1 .number{
   font-size: 15em;
-  color: rgba(87, 128, 210, 0.808);
+  color: #333431;
   -webkit-text-stroke: 5px white;
   position: absolute;
   font-weight: 900;
@@ -150,34 +145,128 @@ h1, h3{
   transform: translateY(-0.50em);
 }
 
-.main-text{
-  display: flex;
-}
-
 .second-page .container-1 .main-text p{
   max-width: 60%;
   padding: 1rem 3rem 1rem 9rem;
   margin-left: -6.7rem;
   background-color: white;
+  border-right: 2rem solid #333431;
 }
 
-.blue-decor{
-  height: auto;
-  width: 2rem;
-  background-color: rgba(87, 128, 210, 0.808);
+/* Third page */
+.third-page{
+  background-color: rgba(186, 186, 186, 0.47);
+  padding: 10em 7rem 5em 10.5rem;
+  overflow: hidden;
 }
 
-.image-box{
+.container-2{
   position: relative;
-  width: 20%;
-  height: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  z-index: 1;
+  transform: translateX(7.5rem);
 }
 
-.image-box img{
-  width: 100%;
+.third-page .heading{
+  position: relative;
+  font-size: 1.5em;
+  background-color: rgba(87, 128, 210, 0.808);
+  text-align: center;
+  padding: 1.8rem 0rem 1.8rem 3rem;
+  width: 55%;
+  letter-spacing: 0.6rem;
+  color: #000;
+  margin-left: 17.5rem;
+}
+
+.container-2 .number{
+  font-size: 15em;
+  color: rgba(87, 128, 210, 0.808);
+  -webkit-text-stroke: 5px white;
+  position: absolute;
+  font-weight: 900;
+  top: 0;
+  left: -2rem;
+  font-family: 'Lilita One', sans-serif;
+  transform: translateY(-0.50em);
+}
+
+.third-page .container-2 .main-text p{
+  max-width: 60%;
+  padding: 1rem 10rem 1rem 3rem;
+  margin-right: -9rem;
+  background-color: white;
+  border-left: 2rem solid rgba(87, 128, 210, 0.808);
+  border-right: none;
+}
+
+/* Fourth page */
+.fourth-page{
+  background-color: rgba(87, 128, 210, 0.808);
+  padding: 10em 7rem 5em 10.5rem;
+  overflow: hidden;
+}
+
+.container-3{
+  position: relative;
+  transform: translateX(7.5rem);
+}
+
+.fourth-page .heading{
+  position: relative;
+  font-size: 1.5em;
+  background-color: #333431;
+  text-align: center;
+  padding: 1.8rem 0rem 1.8rem 3rem;
+  width: 55%;
+  letter-spacing: 0.6rem;
+  color: #fff;
+  margin-left: 17.5rem;
+}
+
+.container-3 .number{
+  font-size: 15em;
+  color: #333431;
+  -webkit-text-stroke: 5px white;
+  position: absolute;
+  font-weight: 900;
+  top: 0;
+  left: -2rem;
+  font-family: 'Lilita One', sans-serif;
+  transform: translateY(-0.50em);
+}
+
+.fourth-page .container-3 .main-text p{
+  max-width: 60%;
+  padding: 1rem 10rem 1rem 3rem;
+  margin-right: -9rem;
+  background-color: white;
+  border-left: 2rem solid #333431;
+  border-right: none;
+}
+
+/* Footer */
+.footer{
+  width: auto;
+  height: 16vh;
+  padding: 4vh;
+  background-color: #717171;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inha-emblem{
+  position: relative;
+}
+
+.inha-link{
+  position:absolute;
+  background-color: #00000000;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  border: 10px solid rgba(87, 128, 210, 0.808);
+}
+
+.social-media i{
+  margin-right: 1vw;
+  font-size: 25px;
 }
