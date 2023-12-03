@@ -315,10 +315,11 @@ margin: -3.5rem;
   width: auto;
   height: 16vh;
   padding: 4vh;
-  background-color: #717171;
+  background-color: rgba(0, 0, 0, 0.726);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #ffffff;
 }
 
 .inha-emblem{
